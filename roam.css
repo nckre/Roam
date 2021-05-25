@@ -1,0 +1,24 @@
+/* Hide Roam Logo at Bottom */
+a[id="roam-sidebar-logo"] {
+  display: none;
+}
+
+/* Remove expander */
+span.bp3-button.bp3-minimal.bp3-icon-menu-closed {
+  display: none;
+}
+
+/* Remove Shortcut Bar */
+#app > div > div.roam-app > div.roam-sidebar-container.noselect > div > div.flex-v-box.starred-pages-wrapper > div.flex-h-box.title  {
+  display:none;
+}
+
+/* Change sidebar padding */
+span.bp3-icon, span.bp3-icon-small {
+  padding-left: 5px;
+  height: 25px;
+}
+
+div.page {
+  line-height: 200%;
+}
