@@ -1,6 +1,10 @@
 # Minimal Sidebar
 Roam Customization with JS and CSS to minimize the sidebar. It works best with "Full" Layout so that the text of a page is close to the sidebar.
 
+
+![image](https://user-images.githubusercontent.com/29370294/119439649-620fbb00-bd55-11eb-9cc7-38e405cb9445.png)
+
+
 ## JS
 * Hides text next to 4 top items (Graph Name, Daily Notes, Graph Overview, All Pages)
 * Changes "TODO" to a emoji checkbox
