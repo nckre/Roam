@@ -1,3 +1,19 @@
+/* Change color and size of sidebar */
+.roam-body .roam-app .roam-sidebar-container {
+  background-color: #003648;
+  border-right: 1px #eee solid;
+  width: auto;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page, .roam-body .roam-app .roam-sidebar-container > * {
+  opacity: 80%;
+  box-shadow: none;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover, .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover {
+  background: #26738b;
+  color: #eee;
+  opacity: 100%;
+}
+
 /* Hide Roam Logo at Bottom */
 a[id="roam-sidebar-logo"] {
   display: none;
